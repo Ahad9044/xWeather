@@ -42,7 +42,7 @@ const App = () => {
         </button>
       </div>
       {
-        loading ? <p className="m-6 text-2xl font-bold">Loading data…</p> : <div>
+        loading ? <p className="m-6 text-2xl font-bold">Loading data...</p> : <div>
           {
             weatherData && <WeatherCard data={weatherData} />
           }
